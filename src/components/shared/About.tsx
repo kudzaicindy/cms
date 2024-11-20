@@ -3,7 +3,7 @@ import { Users, BarChart2 } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black to-gray-900">
+    <div className="min-h-screen bg-dark-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Hero Section */}
         <div className="text-center mb-20">

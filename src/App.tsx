@@ -11,6 +11,7 @@ import Dashboard from './components/dashboard/Dashboard';
 import ProjectList from './components/projects/ProjectList';
 import ClientList from './components/clients/ClientList';
 import ClientForm from './components/clients/ClientForm';
+import About from './components/shared/About';
 
 // Protected Route Component
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
@@ -61,6 +62,7 @@ const App = () => {
       <Routes>
         {/* Public Route */}
         <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<About />} />
 
         {/* Auth Routes - Protected */}
         <Route path="/login" element={<LoginForm />
